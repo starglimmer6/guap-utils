@@ -1,7 +1,7 @@
 {
   "name": "guap-utils",
   "version": "1.0.0",
-  "description": "一个实用的 JavaScript 工具库，提供文件操作、日期时间、颜色处理、数据转换和验证等功能",
+  "description": "无框架依赖的 JavaScript 通用工具函数库，封装前端高频使用的工具方法，提升开发效率。",
   "main": "index.js",
   "module": "index.mjs",
   "type": "module",
@@ -16,6 +16,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "guap",
+    "guap-utils",
+    "guap-components-vue",
+    "guap-components-uni",
     "utils",
     "utility",
     "file",
