@@ -1,11 +1,22 @@
 # guap-utils
+📚 无框架依赖的 JavaScript 通用工具函数库，封装前端高频使用的工具方法，提升开发效率。
 
-一个实用的 JavaScript 工具库，提供文件操作、日期时间、颜色处理、数据转换和验证等功能。
+## 📦 guap 生态成员
+本包是 guap 技术生态核心成员之一，生态全套产品：
+✅ guap-utils：JavaScript 通用工具函数包（基础核心）
+✅ guap-components-vue：Vue3 专属业务组件库（Vue3 技术栈）
+✅ guap-components-uni：Uniapp 跨端组件库（多端适配）
 
-## 安装
+## ✨ 核心特性
+- 🚀 零依赖，体积小巧，按需引入
+- 📌 覆盖数组、对象、字符串、时间、浏览器等全场景工具函数
+- 🔨 兼容所有前端项目，Vue/React/Uniapp 均可使用
+
+## 🚀 安装使用
+# 安装当前包
 
 ```bash
-npm install guap-utils
+npm install guap-utils --save
 ```
 
 ## 快速开始
