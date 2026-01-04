@@ -1,0 +1,46 @@
+{
+  "name": "guap-utils",
+  "version": "1.0.0",
+  "description": "一个实用的 JavaScript 工具库，提供文件操作、日期时间、颜色处理、数据转换和验证等功能",
+  "main": "index.js",
+  "module": "index.mjs",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "utils",
+    "utility",
+    "file",
+    "time",
+    "date",
+    "color",
+    "validate",
+    "data",
+    "tree",
+    "base64",
+    "image",
+    "format"
+  ],
+  "author": "starglimmer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "files": [
+    "*.js",
+    "*.mjs",
+    "README.md"
+  ]
+}

@@ -1,0 +1,40 @@
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+test/
+*.test.js
+*.spec.js
+coverage/
+.nyc_output/
+
+# Development
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Documentation (可选，如果想包含README可以删除这行)
+# PUBLISH.md
+
+# Build
+dist/
+build/
+
+# Misc
+*.log
+.env
+.env.local
