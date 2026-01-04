@@ -2,11 +2,11 @@
  * guap-utils - 工具库主入口
  */
 
-const fileUtils = require('./file')
-const timeUtils = require('./time')
-const colorUtils = require('./color')
-const dataUtils = require('./data')
-const validateUtils = require('./validate')
+const fileUtils = require('./lib/file')
+const timeUtils = require('./lib/time')
+const colorUtils = require('./lib/color')
+const dataUtils = require('./lib/data')
+const validateUtils = require('./lib/validate')
 
 module.exports = {
   // 文件工具

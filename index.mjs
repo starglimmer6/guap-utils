@@ -5,11 +5,11 @@
 import { createRequire } from 'module'
 const require = createRequire(import.meta.url)
 
-const fileUtils = require('./file.js')
-const timeUtils = require('./time.js')
-const colorUtils = require('./color.js')
-const dataUtils = require('./data.js')
-const validateUtils = require('./validate.js')
+const fileUtils = require('./lib/file.js')
+const timeUtils = require('./lib/time.js')
+const colorUtils = require('./lib/color.js')
+const dataUtils = require('./lib/data.js')
+const validateUtils = require('./lib/validate.js')
 
 export default {
   // 文件工具
